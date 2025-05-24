@@ -29,7 +29,7 @@ Ce projet a été réalisé par **M. A Angelico** et **ZARAVITA** dans le cadre 
 # Chargement des données des roulements depuis GitHub
 @st.cache_data
 def load_bearing_data():
-    url = "https://github.com/ZARAVITA/analyse_vibratoire_app/raw/main/Bearing%20data%20Base.xlsx"
+    url = "https://github.com/ZARAVITA/Analyse_vibratoire_par_ondelettes/blob/main/Bearing%20data%20Base.csv"
     try:
         response = requests.get(url)
         response.raise_for_status()
