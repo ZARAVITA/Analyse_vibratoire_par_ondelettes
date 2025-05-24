@@ -423,6 +423,7 @@ if uploaded_file is not None:
                             x0=time[0], y0=harmonic_freq_measured,
                             x1=time[-1], y1=harmonic_freq_measured,
                             line=dict(color=freq_colors[freq_type], width=1, dash='dot')
+                        )
                         
                         fig.add_annotation(
                             x=time[-1],
