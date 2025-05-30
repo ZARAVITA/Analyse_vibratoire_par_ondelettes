@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 from scipy.signal import butter, filtfilt
-import pywt
+import pywavelets as pywt
 import requests
 from io import BytesIO
 
